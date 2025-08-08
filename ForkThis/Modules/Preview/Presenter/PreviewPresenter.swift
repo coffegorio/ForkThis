@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+class PreviewPresenter: PreviewPresenterProtocol {
+    private weak var view: PreviewViewProtocol?
+    
+    init(view: PreviewViewProtocol) {
+        self.view = view
+    }
+    
+    
+}
